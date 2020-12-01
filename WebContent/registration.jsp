@@ -1,13 +1,21 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<%@ taglib uri="/struts-tags" prefix="s" %>
+	pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="/struts-tags" prefix="s"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Registration</title>
 </head>
 <body>
-<s:form></s:form>
+	<h1>Registration</h1>
+	<hr>
+	<br />
+	<div align="center">
+		<s:form action="register">
+			<s:textfield key="username" />
+			<s:submit key="submit" name="submit" />
+		</s:form>
+	</div>
 </body>
 </html>

@@ -1,18 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ taglib uri="/struts-tags"  prefix="s"%>    
+    
+<%@ taglib uri="/struts-tags" prefix="s" %>
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Welcome</title>
+<title>Template</title>
+<link rel="stylesheet" href="../styles/styles.css" />
 </head>
 <body>
-<h1>Welcome</h1>
-<hr>
-<br/>
-<div align="center">
-<s:property value="username"/>
-</div>
+<s:text name="username"/>
 </body>
 </html>
