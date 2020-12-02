@@ -6,9 +6,12 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Registration</title>
+<link rel="stylesheet" href="../styles/styles.css" />
 </head>
 <body>
-	<h1>Registration</h1>
+	<div align="center">
+		<h1>Registration</h1>
+	</div>
 	<hr>
 	<br />
 	<div align="center">

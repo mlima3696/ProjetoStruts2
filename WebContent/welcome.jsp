@@ -6,6 +6,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Welcome</title>
+<link rel="stylesheet" href="../styles/styles.css"/>
 </head>
 <body>
 <h1>Welcome</h1>
@@ -13,6 +14,7 @@
 <br/>
 <div align="center">
 <s:property value="username"/>
+<s:property value="username.required"/>
 </div>
 </body>
 </html>

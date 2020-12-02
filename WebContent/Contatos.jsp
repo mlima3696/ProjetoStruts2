@@ -5,6 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Contatos</title>
+<link rel="stylesheet" href="../styles/styles.css" />
 </head>
 <body>
 <h1>Contatos</h1>
