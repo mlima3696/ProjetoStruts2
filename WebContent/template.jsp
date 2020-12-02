@@ -6,6 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<s:head/>
 <meta charset="ISO-8859-1">
 <title>Template</title>
 <link rel="stylesheet" href="../styles/styles.css" />

@@ -6,7 +6,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Registration</title>
-<link rel="stylesheet" href="../styles/styles.css" />
+<link rel="stylesheet" href="../styles/styles.css"/>
 </head>
 <body>
 	<div align="center">
@@ -16,8 +16,10 @@
 	<br />
 	<div align="center">
 		<s:form action="register">
-			<s:textfield key="username" />
-			<s:submit key="submit" name="submit" />
+			<s:textfield key="username"/>
+			<s:password key="password"/>
+			<s:password key="confirmPassword"/>
+			<s:submit key="submit" name="submit"/>
 		</s:form>
 	</div>
 </body>
