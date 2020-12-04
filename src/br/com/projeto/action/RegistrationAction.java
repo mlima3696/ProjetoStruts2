@@ -38,16 +38,16 @@ public class RegistrationAction extends ActionSupport {
 			addFieldError("userName", getText("username.required"));
 		}
 
-		else if ("".equals(getUsername())) {
+		 if ("".equals(getPassword()) && "".equals(getConfirmPassword())) {
 			addFieldError("password", getText("password.required"));
 		}
 
-		else if ("".equals(getUsername())) {
+		/* if ("".equals(getConfirmPassword())) {
 			addFieldError("confirmPassword", getText("cpassword.required"));
 			
-		} else if ("".equals(getUsername())) {
-			addFieldError("confirmPassword", getText("cpassword.notmach"));
-		}
+		} if (getPassword().equals(getConfirmPassword())) {
+			addFieldError("confirmPassword", getText("cpassword.notmacth"));
+		}*/
 	}
 
 	@Override
