@@ -10,11 +10,6 @@
 			<result name="success">index.jsp</result>
 		</action>
 
-		<action name="contato"
-			class="br.com.projeto.action.ContatosAction">
-			<result name="success">Contatos.jsp</result>
-		</action>
-
 		<action name="b" class="br.com.projeto.action.BTagAction">
 			<result name="success">a.jsp</result>
 		</action>
@@ -28,7 +23,9 @@
 			<result name="sucess">welcome.jsp</result>
 			<result name="input">registration.jsp</result>
 		</action>
-
+		<action name="login" class="br.com.projeto.action.LoginAction">
+			<result name="success">registration.jsp</result>
+		</action>
 	</package>
 
 </struts>

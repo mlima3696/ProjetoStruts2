@@ -38,22 +38,22 @@ public class RegistrationAction extends ActionSupport {
 			addFieldError("userName", getText("username.required"));
 		}
 
-		 if ("".equals(getPassword()) && "".equals(getConfirmPassword())) {
+		 if ("".equals(getPassword())) {
 			addFieldError("password", getText("password.required"));
 		}
 
-		/* if ("".equals(getConfirmPassword())) {
+		if ("".equals(getConfirmPassword())) {
 			addFieldError("confirmPassword", getText("cpassword.required"));
 			
 		} if (getPassword().equals(getConfirmPassword())) {
 			addFieldError("confirmPassword", getText("cpassword.notmacth"));
-		}*/
+		}
 	}
 
 	@Override
 	public String execute() throws Exception {
 		System.out.println("Executou registration");
-		return "success";
+		return "sucess";
 	}
 
 }

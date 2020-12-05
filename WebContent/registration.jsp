@@ -20,6 +20,7 @@
 			<s:password key="password"/>
 			<s:password key="confirmPassword"/>
 			<s:submit key="submit" name="submit"/>
+			<s:reset key="reset" name="reset"/>
 		</s:form>
 	</div>
 </body>
