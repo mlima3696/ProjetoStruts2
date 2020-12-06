@@ -1,0 +1,34 @@
+<!DOCTYPE struts PUBLIC 
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.custom.i18n.resources" value="global"></constant>
+	<constant name="struts.devModel" value="true"></constant>
+	<package name="default" extends="struts-default">
+
+		<action name="teste" class="br.com.projeto.action.IndexAction">
+			<result name="success">index.jsp</result>
+		</action>
+
+		<action name="b" class="br.com.projeto.action.BTagAction">
+			<result name="success">a.jsp</result>
+		</action>
+
+		<action name="a" class="br.com.projeto.action.ATagAction">
+			<result name="success">b.jsp</result>
+		</action>
+
+		<action name="register"
+			class="br.com.projeto.action.RegistrationAction">
+			<result name="sucess">welcome.jsp</result>
+			<result name="input">registration.jsp</result>
+		</action>
+		<action name="login" class="br.com.projeto.action.LoginAction">
+			<result name="success">registration.jsp</result>
+		</action>
+			<action name="set" class="br.com.projeto.action.SetTagAction">
+			<result name="success">set.jsp</result>
+		</action>
+	</package>
+
+</struts>
