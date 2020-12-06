@@ -6,7 +6,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Welcome</title>
-<link rel="stylesheet" href="../styles/styles.css" />
+<link rel="stylesheet" href="styles/styles.css" />
 </head>
 <body>
 	<h1>Welcome</h1>

@@ -6,7 +6,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Registration</title>
-<link rel="stylesheet" href="../styles/styles.css"/>
+<link rel="stylesheet" href="styles/styles.css" />
 </head>
 <body>
 	<div align="center">
