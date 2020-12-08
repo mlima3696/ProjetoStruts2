@@ -25,7 +25,7 @@
 				label="Selecione o mes" HeaderKey="-1" HeaderValue="Select month"
 				name="youMonth" value="2" />
 		</h2>
-
+		<s:submit key="submit" name="submit"></s:submit>
 	</s:form>
 </body>
 </html>
