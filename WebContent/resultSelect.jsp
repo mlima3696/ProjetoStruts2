@@ -16,11 +16,11 @@
 	<hr>
 	<br />
 	<h2>
-		<s:property value="youSearch" />
+		<s:property value="%{youSearch}" />
 	</h2>
 	<br />
 	<h2>
-		<s:property value="youMonth" />
+		<s:property value="%{youMonth}" />
 	</h2>
 </body>
 </html>

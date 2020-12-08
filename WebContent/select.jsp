@@ -15,7 +15,7 @@
 	<br />
 	<hr>
 	<br />
-	<s:form action="selectAction">
+	<s:form action="selectResult" namespace="/">
 		<h2>
 			<s:select list="Engine" label="Digite sua busca" HeaderKey="-1"
 				HeaderValue="Select search" name="youSearch" value="Engine" />
