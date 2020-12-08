@@ -11,9 +11,21 @@
 <body>
 </head>
 <body>
-	<h1>Select</h1>
+	<h1>Tag Select</h1>
 	<br />
 	<hr>
 	<br />
+	<s:form action="selectAction">
+		<h2>
+			<s:select list="Engine" label="Digite sua busca" HeaderKey="-1"
+				HeaderValue="Select search" name="youSearch" value="Engine" />
+		</h2>
+		<h2>
+			<s:select list="#{'1':'Jan','2':'Fev','3':'Mar','4':Abril }"
+				label="Selecione o mes" HeaderKey="-1" HeaderValue="Select month"
+				name="youMonth" value="2" />
+		</h2>
+
+	</s:form>
 </body>
 </html>

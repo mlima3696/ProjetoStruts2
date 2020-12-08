@@ -26,8 +26,14 @@
 		<action name="login" class="br.com.projeto.action.LoginAction">
 			<result name="success">registration.jsp</result>
 		</action>
-			<action name="set" class="br.com.projeto.action.SetTagAction">
+		<action name="set" class="br.com.projeto.action.SetTagAction">
 			<result name="success">set.jsp</result>
+		</action>
+		<action name="selectAction" class="br.com.projeto.action.SelectAction" method="display">
+			<result name="success">select.jsp</result>
+		</action>
+		<action name="selectResult" class="br.com.projeto.action.SelectAction">
+			<result name="success">select.jsp</result>
 		</action>
 	</package>
 
