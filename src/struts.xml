@@ -35,6 +35,12 @@
 		<action name="selectResult" class="br.com.projeto.action.SelectAction">
 			<result name="success">resultSelect.jsp</result>
 		</action>
+		<action name="textArea" class="br.com.projeto.action.TextAreaLinkAction">
+			<result name="success">textArea.jsp</result>
+		</action>
+		<action name="inputTextArea" class="br.com.projeto.action.TextAreaAction">
+			<result name="success">result.jsp</result>
+		</action>
 	</package>
 
 </struts>

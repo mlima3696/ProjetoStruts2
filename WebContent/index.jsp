@@ -20,6 +20,8 @@
 		        href="%{LINK2}">Select</s:a></li>
 		        <li><s:url var="LINK3" value="set"></s:url> <s:a 
 		        href="%{LINK3}">Set</s:a></li>
+		        <li><s:url var="LINK4" value="inputTextArea"></s:url> <s:a 
+		        href="%{LINK4}">TextArea</s:a></li>
 	</ol>
 </body>
 </html>
