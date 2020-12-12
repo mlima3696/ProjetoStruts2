@@ -22,6 +22,8 @@
 		        href="%{LINK3}">Set</s:a></li>
 		        <li><s:url var="LINK4" value="inputTextArea"></s:url> <s:a 
 		        href="%{LINK4}">TextArea</s:a></li>
+		         <li><s:url var="LINK5" value="checkBox"></s:url> <s:a 
+		        href="%{LINK5}">CheckBox</s:a></li>
 	</ol>
 </body>
 </html>

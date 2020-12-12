@@ -41,6 +41,13 @@
 		<action name="inputTextArea" class="br.com.projeto.action.TextAreaAction">
 			<result name="success">result.jsp</result>
 		</action>
+		<action name="checkBox" class="br.com.projeto.action.CheckBoxLinkAction" method="display">
+			<result name="none">checkbox.jsp</result>
+		</action>
+		<action name="inputCheckBox" class="br.com.projeto.action.CheckBoxAction">
+			<result name="success">resultCheckbox.jsp</result>
+			<result name="none">checkbox.jsp</result>
+		</action>
 	</package>
 
 </struts>
