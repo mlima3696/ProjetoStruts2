@@ -47,6 +47,12 @@
 		<action name="inputCheckBox" class="br.com.projeto.action.CheckBoxAction" >
 			<result name="success">resultCheckbox.jsp</result>
 		</action>
+		<action name="radioButton" class="br.com.projeto.action.RadioButtonAction" method="display">
+			<result name="none">radioButton.jsp</result>
+		</action>
+		<action name="inputRadioButton" class="br.com.projeto.action.RadioButtonAction" >
+			<result name="success">resultRadioButton.jsp</result>
+		</action>
 	</package>
 
 </struts>
