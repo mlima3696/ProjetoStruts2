@@ -15,7 +15,7 @@
 	<hr>
 	<br />
 	<s:form action="inputCheckBox" namespace="/">
-	<s:checkbox name="checkb" fieldValue="true" label="CheckBox"/>
+	<s:checkbox name="checkb" fieldValue="false" label="CheckBox"/>
 	<s:submit key="submit" name="submit"/>
 	</s:form>
 </body>

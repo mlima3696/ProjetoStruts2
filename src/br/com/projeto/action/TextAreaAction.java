@@ -17,6 +17,7 @@ public class TextAreaAction extends ActionSupport {
 	}
 
 	public String execute() {
+		System.out.println("Executou TextAreaAction");
 		return "success";
 	}
 }
