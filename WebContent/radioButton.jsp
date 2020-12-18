@@ -16,11 +16,13 @@
 	<br />
 	<hr>
 	<br />
-	<form action="inputRadioButton" namespace="/">
-		<s:radio label="" name="" list="" value="" />
-		<s:radio label="" name="" list="" value="" />
-		<s:radio label="" name="" list="" value="" />
+	<h2>
+	<s:form action="inputRadioButton">
+		<s:radio label="Gender" name="youGender" list="Gender" value="defaultGender" />
+		<s:radio label="Gender" name="youLanguage" list="Languages" value="defaultLanguage" />
+		<s:radio label="Answer" name="youAnswer" list="#{'1':'yes','2': 'no' }" value="2" />
 		<s:submit key="submit" name="submit" />
-	</form>
+	</s:form>
+	</h2>
 </body>
 </html>

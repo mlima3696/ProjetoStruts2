@@ -24,6 +24,9 @@
 		        href="%{LINK4}">TextArea</s:a></li>
 		         <li><s:url var="LINK5" value="checkBox"></s:url> <s:a 
 		        href="%{LINK5}">CheckBox</s:a></li>
+		        <li><s:url var="LINK6" value="radioButton"></s:url> <s:a 
+		        href="%{LINK6}">Radio Button</s:a></li>
+		        
 	</ol>
 </body>
 </html>

@@ -7,7 +7,7 @@ import com.opensymphony.xwork2.ActionSupport;
 
 import br.com.projeto.model.Language;
 
-public class RadionButtonAction extends ActionSupport {
+public class RadioButtonAction extends ActionSupport {
 
 	private List<String> genders;
 	private List<Language> languages;
@@ -20,7 +20,7 @@ public class RadionButtonAction extends ActionSupport {
 	private static final String Female = "F";
 	private static final String UNKNOWN = "Inderteminado";
 
-	public RadionButtonAction() {
+	public RadioButtonAction() {
 		genders = new ArrayList<String>();
 		genders.add(Male);
 		genders.add(Female);
@@ -32,6 +32,58 @@ public class RadionButtonAction extends ActionSupport {
 		languages.add(new Language("BR", "Brasil"));
 		languages.add(new Language("CH", "China"));
 
+	}
+	
+	public List<String> getGenders() {
+		return genders;
+	}
+	
+	public void setGenders(List<String> genders) {
+		this.genders = genders;
+	}
+
+	public List<Language> getLanguages() {
+		return languages;
+	}
+
+	public void setLanguages(List<Language> languages) {
+		this.languages = languages;
+	}
+
+	public String getYouGender() {
+		return youGender;
+	}
+
+	public void setYouGender(String youGender) {
+		this.youGender = youGender;
+	}
+
+	public String getYouLanguage() {
+		return youLanguage;
+	}
+
+	public void setYouLanguage(String youLanguage) {
+		this.youLanguage = youLanguage;
+	}
+
+	public String getYouAnswer() {
+		return youAnswer;
+	}
+
+	public void setYouAnswer(String youAnswer) {
+		this.youAnswer = youAnswer;
+	}
+
+	public static String getMale() {
+		return Male;
+	}
+
+	public static String getFemale() {
+		return Female;
+	}
+
+	public static String getUnknown() {
+		return UNKNOWN;
 	}
 
 	public String getDefaultLanguageValue() {
