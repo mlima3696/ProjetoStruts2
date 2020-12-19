@@ -18,8 +18,8 @@
 	<br />
 	<h2>
 	<s:form action="inputRadioButton">
-		<s:radio label="Gender" name="youGender" list="Gender" value="defaultGenderValue" />
-		<s:radio label="Gender" name="youLanguage" list="Languages" value="defaultLanguageValue" listValue="languageDisplay" listKey="languageCode" />
+		<s:radio label="Gender" name="youGender" list="gender" value="defaultGenderValue" />
+		<s:radio label="Gender" name="youLanguage" list="languages" value="defaultGenderValue" listValue="languageDisplay" listKey="languageCode" />
 		<s:radio label="Answer" name="youAnswer" list="#{'1':'yes','2': 'no' }" value="2" />
 		<s:submit key="submit" name="submit" />
 	</s:form>

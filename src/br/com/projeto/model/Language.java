@@ -5,8 +5,8 @@ public class Language {
 	private String LanguageDisplay;
 
 	public Language(String languageCode, String languageDisplay) {
-		LanguageCode = languageCode;
-		LanguageDisplay = languageDisplay;
+		this.LanguageCode = languageCode;
+		this.LanguageDisplay = languageDisplay;
 	}
 
 }
